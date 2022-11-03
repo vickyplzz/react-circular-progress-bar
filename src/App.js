@@ -7,10 +7,10 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      if (percentage < 100) {
+      if (percentage < 50) {
         setPercentage(percentage + 1);
       }
-    }, 50);
+    }, 20);
   }, [percentage]);
 
   return (
